@@ -42,6 +42,8 @@ public class Details extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        Name.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
+        Name.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         Name.setText("Pokemon");
 
         Gender.setText("Gender");
